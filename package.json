@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx server.ts",
-    "build": "node -e \"const fs=require('fs'),path=require('path');function d(p){try{if(!fs.existsSync(p))return;let s=fs.readFileSync(p,'utf8').trim();if(!s||s.length<8)return;for(let i=0;i<3;i++){if(!s.includes('import')&&!s.includes('<')&&!s.includes('{')&&!s.includes('export')){try{const dec=Buffer.from(s,'base64').toString('utf8');if(dec&&dec!==s)s=dec;}catch(e){break;}}}fs.writeFileSync(p,s);}catch(e){}}function w(dir){if(!fs.existsSync(dir))return;for(const it of fs.readdirSync(dir)){const full=path.join(dir,it);if(fs.statSync(full).isDirectory())w(full);else d(full);}}d('vite.config.ts');d('index.html');d('.npmrc');w('src');w('server');\" && vite build",
+    "build": "node -e \"const fs=require('fs'),path=require('path');function d(p){try{if(!fs.existsSync(p))return;let s=fs.readFileSync(p,'utf8').trim();if(!s||s.length<8)return;for(let i=0;i<3;i++){if(!s.includes('import')&&!s.includes('<')&&!s.includes('{')&&!s.includes('export')){try{const dec=Buffer.from(s,'base64').toString('utf8');if(dec&&dec!==s)s=dec;}catch(e){break;}}}fs.writeFileSync(p,s);}catch(e){}}function w(dir){if(!fs.existsSync(dir))return;for(const it of fs.readdirSync(dir)){const full=path.join(dir,it);if(fs.statSync(full).isDirectory())w(full);else d(full);}}d('tsconfig.json');d('vite.config.ts');d('index.html');d('.npmrc');w('src');w('server');\" && vite build",
     "bundle:zip": "tsx scripts/generateZip.ts",
     "heroku-postbuild": "vite build && tsx scripts/generateZip.ts",
     "start": "tsx server.ts",
