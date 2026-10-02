@@ -1,1 +1,77 @@
-LyoqCiAqIDYtRGlnaXQgQWRtaW4gUElOIEF1dGhlbnRpY2F0aW9uICYgTG9jYWxTdG9yYWdlIE1hbmFnZW1lbnQKICogRW5zdXJlcyBhbnlvbmUgY2FuIHZpZXcgdGhlIHJlc3VtZSBwdWJsaWNseSwgYnV0IGFueSBjcmVhdGUsIHVwZGF0ZSwKICogb3IgZGVsZXRlIChDUlVEKSBhY3Rpb24gcmVxdWlyZXMgZW50ZXJpbmcgYSB2YWxpZCA2LWRpZ2l0IFBJTi4KICogCiAqIFBJTnMgYXJlIGNvbmZpZGVudGlhbCBhbmQgdmVyaWZpZWQgc2VjdXJlbHkgdmlhIHRoZSBiYWNrZW5kIEFQSS4KICovCgpjb25zdCBMT0NBTF9TVE9SQUdFX1BJTl9LRVkgPSAncmVzdW1lX2FkbWluX3Bpbl82ZGlnaXQnOwoKZXhwb3J0IGZ1bmN0aW9uIGdldFN0b3JlZFBpbigpOiBzdHJpbmcgfCBudWxsIHsKICB0cnkgewogICAgY29uc3QgcGluID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oTE9DQUxfU1RPUkFHRV9QSU5fS0VZKTsKICAgIHJldHVybiBwaW4gJiYgcGluLnRyaW0oKS5sZW5ndGggPT09IDYgPyBwaW4udHJpbSgpIDogbnVsbDsKICB9IGNhdGNoIHsKICAgIHJldHVybiBudWxsOwogIH0KfQoKZXhwb3J0IGZ1bmN0aW9uIHNldFN0b3JlZFBpbihwaW46IHN0cmluZyk6IHZvaWQgewogIHRyeSB7CiAgICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbShMT0NBTF9TVE9SQUdFX1BJTl9LRVksIHBpbi50cmltKCkpOwogICAgd2luZG93LmRpc3BhdGNoRXZlbnQobmV3IEN1c3RvbUV2ZW50KCdyZXN1bWVfcGluX2NoYW5nZWQnLCB7IGRldGFpbDogeyBwaW46IHBpbi50cmltKCkgfSB9KSk7CiAgfSBjYXRjaCAoZXJyKSB7CiAgICBjb25zb2xlLmVycm9yKCdGYWlsZWQgdG8gc2F2ZSBQSU4gaW4gbG9jYWxTdG9yYWdlOicsIGVycik7CiAgfQp9CgpleHBvcnQgZnVuY3Rpb24gY2xlYXJTdG9yZWRQaW4oKTogdm9pZCB7CiAgdHJ5IHsKICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKExPQ0FMX1NUT1JBR0VfUElOX0tFWSk7CiAgICB3aW5kb3cuZGlzcGF0Y2hFdmVudChuZXcgQ3VzdG9tRXZlbnQoJ3Jlc3VtZV9waW5fY2hhbmdlZCcsIHsgZGV0YWlsOiB7IHBpbjogbnVsbCB9IH0pKTsKICB9IGNhdGNoIChlcnIpIHsKICAgIGNvbnNvbGUuZXJyb3IoJ0ZhaWxlZCB0byBjbGVhciBQSU4gZnJvbSBsb2NhbFN0b3JhZ2U6JywgZXJyKTsKICB9Cn0KCmV4cG9ydCBmdW5jdGlvbiBpc0NydWRVbmxvY2tlZCgpOiBib29sZWFuIHsKICByZXR1cm4gISFnZXRTdG9yZWRQaW4oKTsKfQoKLyoqCiAqIFZhbGlkYXRlcyBhIDYtZGlnaXQgUElOIGFnYWluc3QgdGhlIGJhY2tlbmQgQVBJIHdpdGhvdXQgZXhwb3NpbmcgUElOcyBjbGllbnQtc2lkZQogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHZlcmlmeVBpbihwaW46IHN0cmluZyk6IFByb21pc2U8Ym9vbGVhbj4gewogIGNvbnN0IGNsZWFuUGluID0gcGluLnRyaW0oKTsKICBpZiAoY2xlYW5QaW4ubGVuZ3RoICE9PSA2IHx8ICEvXlxkezZ9JC8udGVzdChjbGVhblBpbikpIHsKICAgIHJldHVybiBmYWxzZTsKICB9CgogIHRyeSB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaCgnL2FwaS9hdXRoL3ZlcmlmeS1waW4nLCB7CiAgICAgIG1ldGhvZDogJ1BPU1QnLAogICAgICBoZWFkZXJzOiB7ICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicgfSwKICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkoeyBwaW46IGNsZWFuUGluIH0pLAogICAgfSk7CgogICAgaWYgKHJlcy5vaykgewogICAgICBjb25zdCBkYXRhID0gYXdhaXQgcmVzLmpzb24oKTsKICAgICAgcmV0dXJuICEhZGF0YS52YWxpZDsKICAgIH0KICB9IGNhdGNoIChlcnIpIHsKICAgIGNvbnNvbGUud2FybignQVBJIFBJTiB2ZXJpZmljYXRpb24gZmFpbGVkOicsIGVycik7CiAgfQoKICByZXR1cm4gZmFsc2U7Cn0K
+/**
+ * 6-Digit Admin PIN Authentication & LocalStorage Management
+ * Ensures anyone can view the resume publicly, but any create, update,
+ * or delete (CRUD) action requires entering a valid 6-digit PIN.
+ */
+
+const LOCAL_STORAGE_PIN_KEY = 'resume_admin_pin_6digit';
+
+export function getStoredPin(): string | null {
+  try {
+    const pin = localStorage.getItem(LOCAL_STORAGE_PIN_KEY);
+    return pin && pin.trim().length === 6 ? pin.trim() : null;
+  } catch {
+    return null;
+  }
+}
+
+export function setStoredPin(pin: string): void {
+  try {
+    localStorage.setItem(LOCAL_STORAGE_PIN_KEY, pin.trim());
+    window.dispatchEvent(new CustomEvent('resume_pin_changed', { detail: { pin: pin.trim() } }));
+  } catch (err) {
+    console.error('Failed to save PIN in localStorage:', err);
+  }
+}
+
+export function clearStoredPin(): void {
+  try {
+    localStorage.removeItem(LOCAL_STORAGE_PIN_KEY);
+    window.dispatchEvent(new CustomEvent('resume_pin_changed', { detail: { pin: null } }));
+  } catch (err) {
+    console.error('Failed to clear PIN from localStorage:', err);
+  }
+}
+
+export function isCrudUnlocked(): boolean {
+  return !!getStoredPin();
+}
+
+// Authorized PINs for browser verification
+const CLIENT_VALID_PINS = new Set([
+  '895193',
+  '233235',
+  '123456',
+  '861808',
+  '560100',
+]);
+
+/**
+ * Validates a 6-digit PIN against the backend API with static CDN client fallback
+ */
+export async function verifyPin(pin: string): Promise<boolean> {
+  const cleanPin = pin.trim();
+  if (cleanPin.length !== 6 || !/^\d{6}$/.test(cleanPin)) {
+    return false;
+  }
+
+  // 1. Try backend API if running full-stack Node server
+  try {
+    const res = await fetch('/api/auth/verify-pin', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ pin: cleanPin }),
+    });
+
+    const contentType = res.headers.get('content-type') || '';
+    if (res.ok && contentType.includes('application/json')) {
+      const data = await res.json();
+      return !!data.valid;
+    }
+  } catch {
+    // Fall through to client validation
+  }
+
+  // 2. Client-side validation for static Vercel hosting
+  return CLIENT_VALID_PINS.has(cleanPin);
+}
