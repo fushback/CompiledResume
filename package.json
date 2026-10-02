@@ -1,1 +1,47 @@
-ewogICJuYW1lIjogInJlYWN0LWV4YW1wbGUiLAogICJwcml2YXRlIjogdHJ1ZSwKICAidmVyc2lvbiI6ICIwLjAuMCIsCiAgInR5cGUiOiAibW9kdWxlIiwKICAic2NyaXB0cyI6IHsKICAgICJkZXYiOiAidHN4IHNlcnZlci50cyIsCiAgICAiYnVpbGQiOiAidml0ZSBidWlsZCIsCiAgICAiYnVuZGxlOnppcCI6ICJ0c3ggc2NyaXB0cy9nZW5lcmF0ZVppcC50cyIsCiAgICAiaGVyb2t1LXBvc3RidWlsZCI6ICJ2aXRlIGJ1aWxkICYmIHRzeCBzY3JpcHRzL2dlbmVyYXRlWmlwLnRzIiwKICAgICJzdGFydCI6ICJ0c3ggc2VydmVyLnRzIiwKICAgICJwcmV2aWV3IjogInZpdGUgcHJldmlldyIsCiAgICAiY2xlYW4iOiAicm0gLXJmIGRpc3Qgc2VydmVyLmpzIiwKICAgICJsaW50IjogInRzYyAtLW5vRW1pdCIKICB9LAogICJlbmdpbmVzIjogewogICAgIm5vZGUiOiAiPj0yMC4wLjAiCiAgfSwKICAiZGVwZW5kZW5jaWVzIjogewogICAgIkBnb29nbGUvZ2VuYWkiOiAiXjIuNC4wIiwKICAgICJAdGFpbHdpbmRjc3Mvdml0ZSI6ICJeNC4zLjMiLAogICAgIkB2aXRlanMvcGx1Z2luLXJlYWN0IjogIl42LjEuMSIsCiAgICAiYWRtLXppcCI6ICJeMC42LjEiLAogICAgImRvdGVudiI6ICJeMTcuMi4zIiwKICAgICJleHByZXNzIjogIl40LjIxLjIiLAogICAgImh0bWwyY2FudmFzIjogIl4xLjQuMSIsCiAgICAiaHRtbDJjYW52YXMtcHJvIjogIl4yLjUuMCIsCiAgICAianNwZGYiOiAiXjQuMi4xIiwKICAgICJsdWNpZGUtcmVhY3QiOiAiXjAuNTQ2LjAiLAogICAgIm1vdGlvbiI6ICJeMTIuMjMuMjQiLAogICAgIm11bHRlciI6ICJeMi40LjAiLAogICAgInFyY29kZS5yZWFjdCI6ICJeNC4yLjAiLAogICAgInJlYWN0IjogIl4xOS4wLjEiLAogICAgInJlYWN0LWRvbSI6ICJeMTkuMC4xIiwKICAgICJ2aXRlIjogIl44LjMuMCIsCiAgICAieGxzeCI6ICJeMC4xOC41IgogIH0sCiAgImRldkRlcGVuZGVuY2llcyI6IHsKICAgICJAdHlwZXMvZXhwcmVzcyI6ICJeNC4xNy4yMSIsCiAgICAiQHR5cGVzL211bHRlciI6ICJeMi4zLjAiLAogICAgIkB0eXBlcy9ub2RlIjogIl4yMi4xNC4wIiwKICAgICJAdHlwZXMvcmVhY3QiOiAiXjE5LjMuMCIsCiAgICAiQHR5cGVzL3JlYWN0LWRvbSI6ICJeMTkuMy4wIiwKICAgICJ0YWlsd2luZGNzcyI6ICJeNC4zLjMiLAogICAgInRzeCI6ICJeNC4yMS4wIiwKICAgICJ0eXBlc2NyaXB0IjogIl43LjAuMiIKICB9Cn0K
+{
+  "name": "react-example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx server.ts",
+    "build": "vite build",
+    "bundle:zip": "tsx scripts/generateZip.ts",
+    "start": "tsx server.ts",
+    "preview": "vite preview",
+    "clean": "rm -rf dist server.js",
+    "lint": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.1",
+    "adm-zip": "^0.6.1",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "html2canvas": "^1.4.1",
+    "html2canvas-pro": "^2.5.0",
+    "jspdf": "^4.2.1",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "multer": "^2.4.0",
+    "qrcode.react": "^4.2.0",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "vite": "^8.3.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/multer": "^2.3.0",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tailwindcss": "^4.3.3",
+    "tsx": "^4.21.0",
+    "typescript": "^7.0.2"
+  }
+}
